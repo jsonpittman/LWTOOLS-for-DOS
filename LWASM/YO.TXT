@@ -1,0 +1,280 @@
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: lwasm.exe section `.text' will not fit in region `csegvma'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: Error: too large for a small-model .exe file.
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: region `csegvma' overflowed by 8736 bytes
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/lib/dos-s-c0.o:(.startupC+0x9b): undefined reference to `main'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_dts':
+(.text+0x10): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_dts':
+(.text+0x8b): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_dtb':
+(.text+0xab): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_dtb':
+(.text+0xe1): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0xef): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0xfb): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x107): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x113): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o:(.text+0x11e): more undefined references to `lwasm_emit' follow
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_end':
+(.text+0x19f): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1ac): undefined reference to `input_isinclude'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1d9): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_end':
+(.text+0x21e): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x24c): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x261): undefined reference to `input_isinclude'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_fcb':
+(.text+0x2b2): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2c7): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2de): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2f5): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_fcb':
+(.text+0x321): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x327): undefined reference to `lwasm_emitexpr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_fdb':
+(.text+0x34d): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x362): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x379): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x390): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_fdb':
+(.text+0x3bf): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x3c5): undefined reference to `lwasm_emitexpr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_fdbs':
+(.text+0x3f7): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x40c): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x423): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x43a): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_fdbs':
+(.text+0x46a): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x494): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x4a3): undefined reference to `lwasm_emitexpr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x4a9): undefined reference to `lwasm_emitexpr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_fqb':
+(.text+0x4e5): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x4fa): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x511): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x528): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_fqb':
+(.text+0x559): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x55f): undefined reference to `lwasm_emitexpr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_fcc':
+(.text+0x95c): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x971): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x9a2): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_fcc':
+(.text+0x9f4): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0xa19): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0xa1f): undefined reference to `lwasm_emitexpr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_fcs':
+(.text+0xe39): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_fcn':
+(.text+0x1283): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_rmb':
+(.text+0x12ba): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x12fc): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1314): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x133b): undefined reference to `register_struct_entry'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x136b): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_resolve_rmb':
+(.text+0x13a2): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x13fa): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_rmb':
+(.text+0x1439): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_rmd':
+(.text+0x145b): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1498): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x14b0): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x14d9): undefined reference to `register_struct_entry'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1509): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_resolve_rmd':
+(.text+0x1540): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x159c): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_rmd':
+(.text+0x15d3): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_rmq':
+(.text+0x15f5): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1634): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x164c): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1677): undefined reference to `register_struct_entry'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x16a7): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_resolve_rmq':
+(.text+0x16de): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x173e): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_rmq':
+(.text+0x1775): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_zmq':
+(.text+0x1791): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x17b7): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_resolve_zmq':
+(.text+0x17ed): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1832): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_zmq':
+(.text+0x185a): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1875): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_zmd':
+(.text+0x1894): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x18ba): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_resolve_zmd':
+(.text+0x18f0): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1933): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_zmd':
+(.text+0x195b): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1976): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_zmb':
+(.text+0x1995): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x19bb): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_resolve_zmb':
+(.text+0x19f1): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1a32): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_zmb':
+(.text+0x1a5a): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1a75): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_org':
+(.text+0x1a99): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_reorg':
+(.text+0x1b0e): undefined reference to `instab'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_equ':
+(.text+0x1bef): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1c04): undefined reference to `register_symbol'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1c11): undefined reference to `lookup_symbol'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_set':
+(.text+0x1c67): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1c80): undefined reference to `register_symbol'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1c8e): undefined reference to `lookup_symbol'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_setdp':
+(.text+0x1ce2): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1cf0): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1d2a): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifp1':
+(.text+0x1d94): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifp2':
+(.text+0x1de5): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifeq':
+(.text+0x1e2b): undefined reference to `lwasm_parse_cond'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1e39): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifne':
+(.text+0x1e93): undefined reference to `lwasm_parse_cond'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1ea1): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifgt':
+(.text+0x1efb): undefined reference to `lwasm_parse_cond'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1f09): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifge':
+(.text+0x1f69): undefined reference to `lwasm_parse_cond'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1f77): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_iflt':
+(.text+0x1fd7): undefined reference to `lwasm_parse_cond'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1fe5): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifle':
+(.text+0x203f): undefined reference to `lwasm_parse_cond'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x204d): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_endc':
+(.text+0x2099): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_else':
+(.text+0x20e2): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifdef':
+(.text+0x21e9): undefined reference to `lookup_symbol'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifndef':
+(.text+0x2322): undefined reference to `lookup_symbol'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifpragma':
+(.text+0x2435): undefined reference to `parse_pragma_helper'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2488): undefined reference to `parse_pragma_helper'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x249f): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_error':
+(.text+0x252e): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_warning':
+(.text+0x255b): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_includebin':
+(.text+0x260c): undefined reference to `input_open_standalone'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x268b): undefined reference to `input_open_standalone'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x269f): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x26ba): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_includebin':
+(.text+0x2708): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2734): undefined reference to `lwasm_register_error2'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_include':
+(.text+0x27e5): undefined reference to `input_openstring'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x280b): undefined reference to `input_open'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2881): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_align':
+(.text+0x28bb): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x28cd): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2919): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_resolve_align':
+(.text+0x294d): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x298a): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_align':
+(.text+0x2a26): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2a3b): undefined reference to `lwasm_emitexpr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_fill':
+(.text+0x2a6b): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2a9b): undefined reference to `lwasm_parse_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2aad): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2ab9): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_resolve_fill':
+(.text+0x2af4): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2b04): undefined reference to `lwasm_reduce_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_fill':
+(.text+0x2b88): undefined reference to `lwasm_fetch_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2b9d): undefined reference to `lwasm_emitexpr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifstr':
+(.text+0x3360): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_end':
+(.text+0x19a): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1c9): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1fb): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_fcc':
+(.text+0x679): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_fcs':
+(.text+0xb11): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_fcs':
+(.text+0xe60): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0xe78): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_fcn':
+(.text+0xf5b): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_emit_fcn':
+(.text+0x12a4): undefined reference to `lwasm_emit'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_rmb':
+(.text+0x12f7): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x132b): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1362): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_rmd':
+(.text+0x1493): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x14c7): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o:(.text+0x1500): more undefined references to `lwasm_save_expr' follow
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_org':
+(.text+0x1aee): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_reorg':
+(.text+0x1b59): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1b7a): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_equ':
+(.text+0x1c31): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x1c45): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o:(.text+0x1cae): more undefined references to `lwasm_register_error' follow
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifp1':
+(.text+0x1dac): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifp2':
+(.text+0x1dfd): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifeq':
+(.text+0x1e65): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifne':
+(.text+0x1ecd): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifgt':
+(.text+0x1f3b): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o:(.text+0x1fa9): more undefined references to `skip_operand_real' follow
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_align':
+(.text+0x28fd): undefined reference to `lwasm_save_expr'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2911): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2932): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_resolve_align':
+(.text+0x2a02): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_fill':
+(.text+0x2a91): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: (.text+0x2ade): undefined reference to `lwasm_register_error'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o:(.text+0x2b64): more undefined references to `lwasm_register_error' follow
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/bin/ld.exe: pseudo.o: in function `pseudo_parse_ifstr':
+(.text+0x33be): undefined reference to `skip_operand_real'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/lib/libdos-s.a(dos-msmmabort.o): in function `abort':
+(.text+0x8): relocation truncated to fit: R_386_16 against `.text'
+c:/devel/i16gnu/bin/../lib/gcc/ia16-elf/6/../../../../ia16-elf/lib/libc.a(lib_a-abort.o): in function `__ia16_abort_impl':
+(.text+0xca): relocation truncated to fit: R_386_PC16 against `_exit'
+collect2.exe: error: ld returned 1 exit status

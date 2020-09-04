@@ -1,0 +1,1 @@
+i16gcc -s -o lwasm.exe pseudo.o -L..\lwlib -llw
