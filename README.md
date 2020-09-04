@@ -4,7 +4,7 @@ A fork of LWTOOLS 4.17 (a set of cross-development tools for the Motorola 6809 a
 Main project page: http://lwtools.projects.l-w.ca/
 
 ### Download
-[Download binaries](http) (16-bit, DOS-ready, compiled using DJGPP gcc)
+[Download binaries](https://github.com/jsonpittman/LWTOOLS-for-DOS/raw/master/EXTRA/LW-BIN.zip) (16-bit, DOS-ready, compiled using DJGPP gcc)
 
 ### Compilation
 To compile using FreeDOS 1.3RC3, the following are needed:
