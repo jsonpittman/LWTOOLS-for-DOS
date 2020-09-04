@@ -17,6 +17,13 @@ fdimples packages:
 
 glib126b.zip (glib) is also needed for compilation. (Available from a [DJGPP mirror](https://mirror.koddos.net/djgpp/current/v2tk/), also provided in the EXTRAS directory for convenience). Extract to C:\DEVEL\DJGPP.
 
+To Compile:
+
+- make
+- make install
+
+(Copies EXEs to C:\LW by default.)
+
 No extensive testing has been done to this fork. Use at your own risk.
 
 
